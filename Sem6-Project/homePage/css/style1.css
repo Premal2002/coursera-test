@@ -1,0 +1,620 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* **********************MARGINS/PADDINGS********************** */
+.ml-0{
+    margin-left: 0 !important;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+
+.pl-0{
+    padding-left: 0;
+}
+
+
+.plr-10p{
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.ml-10p{
+    margin-left: 10px;
+}
+
+.me-11 {
+    margin-right: 9rem !important;
+  }
+
+
+.vs{
+    min-height: 8px;
+}
+/* ******************LIST-STYLE******************** */
+.list-style{
+    list-style-type: none;
+}
+
+.cat-link{
+    display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.cat-link:hover{
+    color: black;
+}
+
+
+.invinsible{
+    display: none;
+}
+
+/* *************************************MEDIA QUERIES********************************************************* */
+/********** Large devices only **********/
+@media (min-width: 1200px) { }
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #catfont{
+        font-size: 1.1rem !important;
+    }
+
+    .submainContent h1 {
+        font-size: 3.5rem !important;
+    }
+
+    .dropdown {
+         margin-left: 25px !important;
+       }
+
+       
+  #dropdown-content4{
+    left: -85px !important;
+  }
+  
+  #dropdown-content5{
+    left: -222px !important;
+  }
+  #dropdown-content6{
+    left: -365px !important;
+  } 
+
+  .footerAbout{
+    width: 40% !important;
+  }
+
+  .footerCat,.footerinfo{
+    width: 25% !important;
+  }
+
+ }
+
+
+ /********** Small devices only **********/
+ @media (min-width: 769px) and (max-width: 991px) {
+
+    #catfont{
+        font-size: 1rem !important;
+    }
+
+    .submainContent h1 {
+        font-size: 3rem !important;
+    }
+     
+    .mainContentimg{
+        background-size: cover !important;
+        height: 450px !important;
+    }
+    .submainContent{
+        padding-top: 90px !important;
+    }
+
+    .dropdown {
+        margin: 0 !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+      }
+
+      .catHeading{
+        font-size: 0.8rem !important;
+      }
+
+      .cat-link{
+        font-size: 0.8rem !important;
+      }
+
+      .dropdown-content{
+        width: 465px !important;
+      }
+
+      #dropdown-content4{
+        left: -85px !important;
+      }
+      
+      #dropdown-content5{
+        left: -180px !important;
+      }
+      #dropdown-content6{
+        left: -280px !important;
+      } 
+
+      .footerAbout{
+        width: 40% !important;
+      }
+    
+      .footerCat,.footerinfo{
+        width: 25% !important;
+      }
+      
+      .smImage{
+        width: 28px !important;
+      }
+ }
+
+
+/********** EXTRA Small devices only **********/
+@media (max-width: 768px){
+    .navbar-toggler{
+        padding: 5px 10px !important;
+    }
+    #mainnav{
+        padding: 5px !important;
+    }
+    .navbar-toggler-icon{
+        height: 1.2em !important;
+        width: 1.2em !important;
+    }
+    #catfont{
+        font-size: 1rem !important;
+    }
+
+    .submainContent h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .feature{
+        display: block !important;
+    }
+
+    .featuresText{
+        font-size: 0.8rem;
+    }
+    .mainContentFeatures{
+        padding: 10px !important;
+    }
+
+    .mainContentimg{
+        background-size: cover !important;
+        height: 500px !important;
+    }
+
+    .submainContent{
+        padding-top: 80px !important;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: none !important;  
+      }
+      .footerAbout{
+        margin-right: 0 !important;
+      }
+
+      .footerAbout,.footerCat,.footerinfo{
+        margin-top: 10px !important;
+      }
+      .footerinfo{
+        margin-bottom: 10px;
+      }
+
+      .invinsible{
+        display: block;
+      }
+    
+      .fCopydiv{
+        width: 90% !important;
+      }
+
+      .fCopytext{
+        font-size: 0.8rem !important;
+      }
+
+      .smImage{
+        width: 25px !important;
+      }
+
+      .socialMediaHolder{
+        width: 80% !important;
+      }
+
+}
+
+/* **********************NAVBAR************************** */
+#mainnav{
+    padding: 0;
+}
+
+.navbar-brand{
+    min-height: 70px;
+}
+
+#navlogolink{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav{
+    margin-right: 0;
+}
+
+
+.hr{
+    min-height: 1px;
+    background-color: lightgray;
+}
+
+.navbar-link{
+    margin:15px;
+}
+
+.dropdown-menu{
+    padding: 10px !important;
+}
+
+.signUp{
+    padding: 5px 10px !important;
+    font-size: 1rem !important;
+}
+
+.dropdown-item{
+    padding: 0 50px 0 0 !important;
+ 
+}
+
+.dropdown-item:hover{
+    color: grey !important;
+    background-color: transparent !important;
+}
+
+
+/* ***************************************CATEGORY-NAVBAR****************************** */
+
+
+#catfont{
+    font-size: 1.2rem;
+    color: grey;
+    
+    margin: 0 !important;
+    padding: 5px !important;
+}
+
+#catfont:hover{
+    color: black !important;
+     text-decoration: underline !important;
+}
+
+.subcatdiv{
+    padding: 10px;
+}
+
+.catHeading{
+    font-weight: bold;
+}
+
+.catdiv{
+    max-width:1200px;
+}
+
+#catDropdown{
+    max-width:1200px;
+}
+
+.wd{
+    width: 16.66%;
+}
+
+.widt{
+    width: 100%;
+}
+.dropdown {
+   position: relative;
+    display: inline-block;
+    margin: 15px;
+  }
+  
+#catUl{
+    position: relative;
+    margin: 0 !important;
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: space-between;
+
+}
+
+a.dropdown
+{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+  .dropdown-content {
+    display: none;
+    /* top: 50px; */
+    position: absolute;
+    background-color: white;
+    border: 2px solid lightgrey;
+    z-index: 1;
+    width: 540px;
+  }
+
+  /* #dropdown-content2{
+
+   left: -216px;
+  }
+
+   #dropdown-content3{
+    left: -432px;
+  }
+  
+  #dropdown-content4{
+    left: -648px;
+  }
+  */
+  #dropdown-content5{
+    left: -150px;
+  }
+  #dropdown-content6{
+    left: -318px;
+  } 
+   
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+
+
+
+
+    /* ********************************************MAIN CONTENT****************************************************** */
+
+
+    .mainContentimg{
+        
+        background-image: url("https://c0.wallpaperflare.com/preview/517/680/994/ecommerce-online-marketing-technology.jpg");
+        background-size: 100%;
+        height: 550px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+        
+        /* padding: 50px;
+        padding-top: 200px; */
+
+    }
+    .submainContent{
+        padding: 50px;
+        padding-top: 120px; 
+     
+    }
+
+    .submainContent h1{
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        font-size: 4rem;
+        
+       
+    }
+
+    .mainContentFeatures{
+        padding: 40px;
+        display: inline-flex;
+        /* margin-left: auto;
+        margin-right: auto; */
+        width: 100%;
+        /*
+        position: absolute;
+        left: 50%; */
+        
+    }
+
+
+    .features{
+        display: inline-block;
+        margin-left: auto;  
+        margin-right: auto;
+    }
+
+    .feature{
+        display: inline-block;
+        padding: 10px;
+        
+    }
+    
+    .featuresText{
+        padding-left: 5px;
+        -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    }
+
+
+    button.btn{
+        padding: 10px 20px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+
+    .shopBtn1{
+        display: inline-flex;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    
+    
+    .submainContent2 h2{
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10px;
+       
+    }
+
+    .container{
+        max-width: 90% !important;
+    }
+
+
+
+    .popularproductSubdiv{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+         width: 60%;
+         padding-top: 20px; 
+         text-align: center;
+    }
+    .popularProductsLink{
+        text-decoration: none;
+        color: black;  
+    }
+
+
+
+    a.popularProductsLink:hover{
+        color: darkslategray;
+    }
+
+
+
+
+    /* ******************************************************************FOOTER***************************************************** */
+
+
+    .socialMedia{
+        padding: 10px;
+    }
+
+
+
+    .socialMediaHolder{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        justify-content: space-between;
+        
+    }
+
+    .vhr{
+        min-width: 1px;
+    background-color: lightgray;
+    }
+
+    .footerheading{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .footerContainer{
+        padding: 0 !important;
+        padding-top: 10px !important;
+    }
+
+    .footerRow{
+        justify-content: center;
+    }
+    .footerAbout{
+        margin-right: 20px;
+    }
+
+    .fAboutPara{
+        padding-top: 8px;
+        font-size: 0.9rem;
+    }
+
+    .footerul{
+        list-style: none;
+        padding-left: 0 !important;
+    }
+
+    .footerLi{
+        padding-top: 8px;
+    }
+
+    .footerLink{
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .footerContact{
+        padding-top: 8px;
+    }
+
+    .footerEmailH{
+        font-weight: bold;
+       
+    }
+    .footerEmailH,.footerEmail,.footerPhone,.footerPhoneH{
+       
+        font-size: 0.9rem;
+    }
+
+    .footerPhoneH{
+        font-weight: bold;
+       
+    }
+
+    .fCopyrightsec{
+        padding: 5px;
+        background-color: lightgray;
+    }
+
+    .fCopydiv{
+        display: flex;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .fCopytext{
+        font-size: 0.9rem;
+    }
+
+    
+
+    
